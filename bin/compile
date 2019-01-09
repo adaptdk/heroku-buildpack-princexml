@@ -32,8 +32,8 @@ diff -ru a/prince-11.4-linux-generic-x86_64/lib/prince/style/fonts.css b/prince-
 
 +/* emoji font */
 +@font-face {
-+    font-family: sans-serif;
-+    src: prince-lookup("EmojiOne")
++    font-family: emojiOne;
++    src: local("EmojiOne")
 +}
 EOF
 popd
